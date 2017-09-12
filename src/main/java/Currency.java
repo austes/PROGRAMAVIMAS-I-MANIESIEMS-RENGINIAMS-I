@@ -1,15 +1,13 @@
 
 import java.text.NumberFormat;
-import java.util.Currency;
 import java.util.Locale;
 
-public class currency {
-
+public class Currency {
 
 
     public static void main(String[] args) {
-        Currency curr = Currency.getInstance("EUR");
-        Currency currLoc = Currency.getInstance(new Locale("de", "DE"));
+        java.util.Currency curr = java.util.Currency.getInstance("EUR");
+        java.util.Currency currLoc = java.util.Currency.getInstance(new Locale("de", "DE"));
         System.out.println("EUR symbol: "+curr.getSymbol(new Locale("de", "DE")));
 
         Double number = 1500D;

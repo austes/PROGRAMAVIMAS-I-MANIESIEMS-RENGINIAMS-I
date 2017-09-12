@@ -1,12 +1,11 @@
 
-public class swapFriendsAge {
+public class SwapFriendsAge {
 
     public static void main(String[] args) {
         int MonikaAge = 21;
         int GabijaAge = 20;
         System.out.println("Before swapping: MonikaAge = " + MonikaAge + " and GabijaAge = " + GabijaAge);
 
-        // Invoke the swap method
         swapFunction(MonikaAge, GabijaAge);
         System.out.println("\n**Now, Before and After swapping values will be same here**:");
         System.out.println("After swapping, Monika age = " + MonikaAge + " and Gabija age is " + GabijaAge);

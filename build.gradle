@@ -21,13 +21,19 @@ dependencies {
 }
 
 task hello {
-    group 'Welcome'
-    description 'Produces a greeting'
-
     doLast {
-        println 'Hello, World'
+        println "hello, austeja!"
+    }
+}
+task upper {
+    doLast {
+        String someString = 'austeja'
+        println "Original: " + someString
+        println "Upper case: " + someString.toUpperCase()
     }
 }
 
-
-
+task mergedTask {
+    dependsOn hello
+    dependsOn upper
+}

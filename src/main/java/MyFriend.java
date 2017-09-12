@@ -1,12 +1,12 @@
 
-public class myFriend {
+public class MyFriend {
     String name;
     int age;
     String designation;
     double salary;
 
 
-    public myFriend (String name) {
+    public MyFriend(String name) {
         this.name = name;
     }
 

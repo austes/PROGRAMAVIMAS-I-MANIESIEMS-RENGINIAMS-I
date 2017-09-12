@@ -1,7 +1,7 @@
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeZone;
 
-public class onTime {
+public class OnTime {
 
     public static void main(String[] args) {
         DateTimeZone localTimeZone = DateTimeZone.forID("Europe/Vilnius");

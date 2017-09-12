@@ -1,10 +1,10 @@
 
-public class myFriendTest {
+public class PrintMyFriend {
 
     public static void main(String args[]) {
 
-        myFriend empOne = new myFriend("Monika Augustyte");
-        myFriend empTwo = new myFriend("Gabija Docyte");
+        MyFriend empOne = new MyFriend("Monika Augustyte");
+        MyFriend empTwo = new MyFriend("Gabija Docyte");
 
 
         empOne.friendAge(20);
